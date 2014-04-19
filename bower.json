@@ -1,0 +1,25 @@
+{
+  "name": "angular-eonasdan-bootstrap-datetimepicker",
+  "version": "0.0.1",
+  "main": "./date-time-picker.js",
+  "dependencies": {
+    "angular": ">=1.2.0",
+  	"eonasdan-bootstrap-datetimepicker": "3.0.0"
+  },
+  "homepage": "https://github.com/andrej-zirko/angular-eonasdan-bootstrap-datetimepicker",
+  "authors": [
+    "Andrej Zirko"
+  ],
+  "description": "bootstrap3 datetimepicker",
+  "keywords": [
+    "twitter-bootstrap",
+    "bootstrap",
+    "datepicker",
+    "datetimepicker",
+    "timepicker",
+    "moment",
+    "angular"
+  ],
+  "license": "MIT",
+  "private": false
+}
