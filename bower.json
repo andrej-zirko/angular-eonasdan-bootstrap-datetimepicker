@@ -1,6 +1,6 @@
 {
   "name": "angular-eonasdan-bootstrap-datetimepicker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./date-time-picker.js",
   "dependencies": {
     "angular": ">=1.2.0",
