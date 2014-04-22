@@ -25,7 +25,8 @@ angular.module('azirkoDatetimepicker', [])
 					useStrict: '@azirkoUseStrict',
 					direction: '@azirkoDirection',
 					sideBySide: '@azirkoSideBySide',
-					daysOfWeekDisabled: '@azirkoDaysOfWeekDisabled'
+					daysOfWeekDisabled: '@azirkoDaysOfWeekDisabled',
+					format: '@azirkoFormat'
 				},
 				link: function postLink(scope, element, attrs, ngModel) {
 					//timeout to ensure DOM is ready
@@ -50,6 +51,7 @@ angular.module('azirkoDatetimepicker', [])
 							direction: scope.direction,
 							sideBySide: scope.sideBySide,
 							daysOfWeekDisabled: scope.daysOfWeekDisabled,
+							format: scope.format
 						});
 						// defaultDate is filled in the UI, but not binded to model
 						ngModel.$setViewValue(element.context.value);
